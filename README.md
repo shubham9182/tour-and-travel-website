@@ -1,37 +1,83 @@
-# Tours-and-travels-in-php
-Online Tours &amp; Travels management system: This is an online project developed using PHP and MySQL.  The purpose of this project is to provide the complete information about the vehicles available for a tour.  There are 2 different types of users. First the customer visits the site and enters the place from where to where he wishes to travel.  He also provides the date as when he would like to travel.  Then he sends these details to the travel and tourism agency. The employee of travel and tourism agency receives the mail and check which vehicle is available for that day and reverts back to the customer along with the quotation.  If the customer agrees for any one of the quotation, he can reply back along with agreed quotation.
-Online Tours & Travels management system: This is an online project developed using PHP and MySQL.
+<!DOCTYPE html>
+<html>
+<head>
+		  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" >// <![CDATA[ 
+        function loading(){
+            $("#loading").show();
+            $("#content").hide();       
+        }
+// ]]></script>
+	<title>Alexa</title>
+	
+	<style>
+		
+    
+ .heading { color: hsl(0, 0%, 3%);}  
 
-The purpose of this project is to provide the complete information about the vehicles available for a tour.
+.page th {
+    background-color: #add8e6;
+    color: rgb(51, 21, 21);
+}
+body {
 
-There are 2 different types of users. First the customer visits the site and enters the place from where to where he wishes to travel.
+  
+	
+  background-image: url("https://th.bing.com/th/id/R.23d210484ee2e67880b826cd414b8edd?rik=Nu41w%2brrPCUyoA&riu=http%3a%2f%2fpavbca.com%2fwalldb%2foriginal%2fd%2ff%2f4%2f482983.jpg&ehk=LHSLM1PxYrrtYbrmdhLvvR67%2bak%2bySUmcgRmFhR6Otg%3d&risl=&pid=ImgRaw&r=0");
+  background-color: #cccccc;
+  height: 755px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+    
+   
+}
+div#loading {
+ 
+    width: 1700px;
+    height: 35px;
+    display: none;
+    background: url('{{ url_for('static', filename='loading_bar.gif' ) }}') no-repeat;
+    cursor: wait;
+    
+  }
+  
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;}
 
-He also provides the date as when he would like to travel.
+.center1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+}
 
-Then he sends these details to the travel and tourism agency. The employee of travel and tourism agency receives the mail and check which vehicle is available for that day and reverts back to the customer along with the quotation.
 
-If the customer agrees for any one of the quotation, he can reply back along with agreed quotation.
+</style>
+</head>
+<body>
+ <div>
+	<h1 class="heading center"> </h1>
+	<h1 class="heading center"> </h1>
+	<form method="POST" action="/" enctype="multipart/form-data">	
+	 <button type="submit" class="btn btn-primary button_add" style="margin: 0 auto;display: block; border-radius: 12px;width:100px;"><i class="fa fa-microphone"></i></button>
+   <h1 class="heading center1">TAP TO SPEAK</h1>
+   	</form>
+	<form method="GET" action="/" enctype="multipart/form-data">
+	</form>
+	<br>
+	<div id="loading" ><br>
+  <p class="heading"> Please wait </p></div>
+<br>
+</div>
 
-Objective Of the Project
-Faster processing time and more accurate data for travel requests and reimbursements
-Ability for travelers to track authorization and reimbursement request status through the system rather than via phone calls or campus mail
-Major technological upgrades to the current travel system
-Use of IU’s standardized, virtual J2EE environments
-Many new features and enhancements
-Software Requirements
-WAMP Server
-XAMPP Server
-Installation/Configuration Steps
-Download zip files and Unzip files.
-Copy and Paste the unzip files inside “c:/wamp/www/” or “c:/xampp/htdocs/”.
-Database Configuration:
-Create a new database named “db name”.
-Import database travel.sql file through phpmyadmin dashboard
-Run/Execute PHP Projects
-Open Your Web Browser
-Put/type inside the web browser : “localhost/project folder”
-Admin Login
-Open Your Web Browser
-Put/type inside the web browser : “localhost/project folder/Admin”
-Admin User : admin
-Admin Password : admin
+</body>
+</html>
