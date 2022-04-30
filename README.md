@@ -24,7 +24,7 @@
 
         <div class="content">
             <span class="title">Freelance Web Developer</span>
-            <h1>Hello, I’m <span>Fatima</span></h1>
+            <h1>Hello, I’m <span>Shubham Mishra</span></h1>
             <p>I’m working on a professional, visually sophisticated and technologically proficient, responsive and multi-functional React Template Imroz.</p>
             <a href="#" class="btn">Download CV</a>
         </div>
@@ -32,7 +32,7 @@
 
 </body>
 </html>
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@iort url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 *{
     margin: 0;
@@ -121,18 +121,7 @@ nav ul li a:hover:after{
 }
 .content h1{
     color: #1f1f25;
-    font-size: 75px;
-    font-weight: 900;
-    line-height: 90px;
-    text-transform: inherit;
-    width: 70%;
-}
-.content h1 span{
-    color: #fd4766;
-}
-.content p{
-    width: 55%;
-    color: #757575;
-    margin-top: 25px;
-    margin-bottom: 30px;
-}
+;
+  
+
+
